@@ -5,7 +5,7 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import Radio from "@mui/material/Radio";
 import { IMaskInput } from "react-imask";
 import DateComponent from "../components/DateComponent";
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../context/AuthContext";
 
 function UserDashboard() {
 

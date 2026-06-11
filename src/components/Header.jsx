@@ -18,7 +18,7 @@ import { BsSun } from "react-icons/bs";
 
 import { GoMoon } from "react-icons/go";
 import { FaRegUser } from "react-icons/fa";
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../context/AuthContext";
 
 function Header() {
   const [statusSelect, setStatusSelect] = useState(true);

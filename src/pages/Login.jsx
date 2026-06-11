@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { Link, NavLink, useNavigate } from "react-router-dom";
 import { userLogin } from "../services/authServices";
-import { useAuth } from "../context/authContext";
+import { useAuth } from "../context/AuthContext";
 
 
 function Login() {
