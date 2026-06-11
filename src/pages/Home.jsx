@@ -111,7 +111,7 @@ function Home() {
           </div>
           <div className="flex flex-wrap justify-center items-center gap-15 py-7 dark:bg-[#373737] bg-red-950">
           {
-            finalMovie.map((item , i) => <Card key={i} {...item} />)
+            finalMovie?.map((item , i) => <Card key={i} {...item} />)
           }
           </div> 
       </>
